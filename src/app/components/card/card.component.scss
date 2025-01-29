@@ -1,0 +1,33 @@
+@import url(../../../styles.scss);
+
+.product {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 360px;
+
+    @media(max-width: 1024px) {
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: var(--border-radius);
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin: 0 0 10px 0;
+        color: #ccc;
+    }
+
+    p {
+        color: #ccc;
+        margin-bottom: 20px;
+    }
+}

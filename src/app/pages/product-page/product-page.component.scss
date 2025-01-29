@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        max-width: 400px;
+        border-radius: var(--border-radius);
+    }
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+
+        h2 {
+            color: #fff;
+            margin: 0;
+            text-align: flex-start;
+        }
+
+        p {
+            color: #ccc;
+        }
+
+        .price {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}

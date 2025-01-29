@@ -1,0 +1,14 @@
+@import url(../../../styles.scss);
+
+.app-header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+
+    h1 {
+        margin: 0;
+        color: #fff;
+    }
+}
